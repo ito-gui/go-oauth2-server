@@ -12,16 +12,16 @@ ENV PATH /go/bin:$PATH
 RUN useradd --user-group --shell /bin/false app
 
 # Cd into the api code directory
-WORKDIR /go/src/github.com/RichardKnop/go-oauth2-server
+WORKDIR /go/src/github.com/ito-gui/go-oauth2-server
 
 # Copy the local package files to the container's workspace.
-ADD . /go/src/github.com/RichardKnop/go-oauth2-server
+ADD . /go/src/github.com/ito-gui/go-oauth2-server
 
 # Set GO111MODULE=on variable to activate module support
 ENV GO111MODULE on
 
 # Chown the application directory to app user
-RUN chown -R app:app /go/src/github.com/RichardKnop/go-oauth2-server/
+RUN chown -R app:app /go/src/github.com/ito-gui/go-oauth2-server/
 
 # Create user's home directory
 RUN mkdir -p /home/app
@@ -31,7 +31,7 @@ RUN chown app /home/app
 USER app
 
 # Install the api program
-RUN go install github.com/RichardKnop/go-oauth2-server
+RUN go install github.com/ito-gui/go-oauth2-server
 
 # User docker-entrypoint.sh script as entrypoint
 ENTRYPOINT ["./docker-entrypoint.sh"]
