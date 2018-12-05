@@ -8,7 +8,7 @@ import (
 	"github.com/ito-gui/go-oauth2-server/oauth/roles"
 	"github.com/ito-gui/go-oauth2-server/util"
 	pass "github.com/ito-gui/go-oauth2-server/util/password"
-	"github.com/ito-gui/uuid"
+	"github.com/RichardKnop/uuid"
 	"github.com/stretchr/testify/assert"
 )
 

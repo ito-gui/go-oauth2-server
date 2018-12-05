@@ -6,7 +6,7 @@ import (
 	"github.com/ito-gui/go-oauth2-server/models"
 	"github.com/ito-gui/go-oauth2-server/oauth"
 	"github.com/ito-gui/go-oauth2-server/session"
-	"github.com/ito-gui/uuid"
+	"github.com/RichardKnop/uuid"
 	"github.com/jinzhu/gorm"
 	"github.com/stretchr/testify/assert"
 )

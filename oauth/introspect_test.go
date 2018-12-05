@@ -11,7 +11,7 @@ import (
 	"github.com/ito-gui/go-oauth2-server/oauth/tokentypes"
 	testutil "github.com/ito-gui/go-oauth2-server/test-util"
 	"github.com/ito-gui/go-oauth2-server/util"
-	"github.com/ito-gui/uuid"
+	"github.com/RichardKnop/uuid"
 	"github.com/stretchr/testify/assert"
 )
 

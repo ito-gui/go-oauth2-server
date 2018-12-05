@@ -2,10 +2,10 @@ module github.com/ito-gui/go-oauth2-server
 
 require (
 	cloud.google.com/go v0.29.0 // indirect
-	github.com/ito-gui/go-fixtures v0.0.0-20171219145945-91af79c20cea
-	github.com/ito-gui/jsonhal v0.0.0-20171219150313-8d8c6803235f
-	github.com/ito-gui/logging v0.0.0-20171219150333-66aaaba18258
-	github.com/ito-gui/uuid v0.0.0-20160216163710-c55201b03606
+	github.com/RichardKnop/go-fixtures v0.0.0-20171219145945-91af79c20cea
+	github.com/RichardKnop/jsonhal v0.0.0-20171219150313-8d8c6803235f
+	github.com/RichardKnop/logging v0.0.0-20171219150333-66aaaba18258
+	github.com/RichardKnop/uuid v0.0.0-20160216163710-c55201b03606
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect

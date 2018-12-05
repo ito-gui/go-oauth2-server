@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/ito-gui/jsonhal"
+	"github.com/RichardKnop/jsonhal"
 )
 
 // LookupUintIDResponse ...

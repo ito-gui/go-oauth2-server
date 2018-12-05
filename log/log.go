@@ -1,7 +1,7 @@
 package log
 
 import (
-	"github.com/ito-gui/logging"
+	"github.com/RichardKnop/logging"
 )
 
 var (

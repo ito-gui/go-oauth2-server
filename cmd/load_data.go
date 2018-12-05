@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/ito-gui/go-fixtures"
+	"github.com/RichardKnop/go-fixtures"
 )
 
 // LoadData loads fixtures
