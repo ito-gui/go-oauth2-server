@@ -3,11 +3,11 @@ package services
 import (
 	"reflect"
 
-	"github.com/RichardKnop/go-oauth2-server/config"
-	"github.com/RichardKnop/go-oauth2-server/health"
-	"github.com/RichardKnop/go-oauth2-server/oauth"
-	"github.com/RichardKnop/go-oauth2-server/session"
-	"github.com/RichardKnop/go-oauth2-server/web"
+	"github.com/ito-gui/go-oauth2-server/config"
+	"github.com/ito-gui/go-oauth2-server/health"
+	"github.com/ito-gui/go-oauth2-server/oauth"
+	"github.com/ito-gui/go-oauth2-server/session"
+	"github.com/ito-gui/go-oauth2-server/web"
 	"github.com/gorilla/sessions"
 	"github.com/jinzhu/gorm"
 )

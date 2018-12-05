@@ -1,11 +1,11 @@
-module github.com/RichardKnop/go-oauth2-server
+module github.com/ito-gui/go-oauth2-server
 
 require (
 	cloud.google.com/go v0.29.0 // indirect
-	github.com/RichardKnop/go-fixtures v0.0.0-20171219145945-91af79c20cea
-	github.com/RichardKnop/jsonhal v0.0.0-20171219150313-8d8c6803235f
-	github.com/RichardKnop/logging v0.0.0-20171219150333-66aaaba18258
-	github.com/RichardKnop/uuid v0.0.0-20160216163710-c55201b03606
+	github.com/ito-gui/go-fixtures v0.0.0-20171219145945-91af79c20cea
+	github.com/ito-gui/jsonhal v0.0.0-20171219150313-8d8c6803235f
+	github.com/ito-gui/logging v0.0.0-20171219150333-66aaaba18258
+	github.com/ito-gui/uuid v0.0.0-20160216163710-c55201b03606
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect
@@ -61,6 +61,7 @@ require (
 	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910 // indirect
 	github.com/prometheus/common v0.0.0-20180801064454-c7de2306084e // indirect
 	github.com/prometheus/procfs v0.0.0-20181005140218-185b4288413d // indirect
+	github.com/rs/cors v1.6.0
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529 // indirect
 	github.com/stretchr/objx v0.1.0 // indirect
 	github.com/stretchr/testify v0.0.0-20171231124224-87b1dfb5b2fa

@@ -37,7 +37,7 @@ services:
 
   app:
     container_name: go_oauth2_server
-    image: go-oauth2-server:latest
+    #image: go-oauth2-server:latest
     depends_on:
       - etcd_config
       - postgres

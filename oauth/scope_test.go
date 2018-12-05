@@ -1,7 +1,7 @@
 package oauth_test
 
 import (
-	"github.com/RichardKnop/go-oauth2-server/oauth"
+	"github.com/ito-gui/go-oauth2-server/oauth"
 	"github.com/stretchr/testify/assert"
 )
 
