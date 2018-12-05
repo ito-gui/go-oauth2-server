@@ -32,6 +32,8 @@ services:
       POSTGRES_USER: "go_oauth2_server"
       POSTGRES_PASSWORD: ""
       POSTGRES_DB: "go_oauth2_server"
+    ports:
+      - "5432:5432"
 
   app:
     container_name: go_oauth2_server
