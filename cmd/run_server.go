@@ -44,10 +44,10 @@ func RunServer(configBackend string) error {
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{"*"},
 		AllowedMethods: []string{"PUT", "POST", "GET", "DELETE"},
-		Debug: true
+		Debug: true,
 	})
 
-	app.use(c)
+	app.Use(c)
 
 	// Set the router
 	app.UseHandler(router)
