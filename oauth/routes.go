@@ -28,6 +28,12 @@ func (s *Service) GetRoutes() []routes.Route {
 			HandlerFunc: s.tokensHandler,
 		},
 		{
+			Name:        "oauth_tokens",
+			Method:      "OPTIONS",
+			Pattern:     tokensPath,
+			HandlerFunc: s.tokensHandler,
+		},
+		{
 			Name:        "oauth_introspect",
 			Method:      "POST",
 			Pattern:     introspectPath,
