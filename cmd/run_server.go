@@ -44,6 +44,7 @@ func RunServer(configBackend string) error {
 	c := cors.New(cors.Options{
 		AllowedOrigins: []string{"*"},
 		AllowedMethods: []string{"PUT", "POST", "GET", "DELETE", "OPTIONS"},
+		AllowedHeaders: []string{"Authorization", "Content-Type"},
 		Debug: true,
 	})
 
