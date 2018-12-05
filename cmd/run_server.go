@@ -9,6 +9,7 @@ import (
 	"github.com/phyber/negroni-gzip/gzip"
 	"github.com/urfave/negroni"
 	"gopkg.in/tylerb/graceful.v1"
+	"github.com/rs/cors"
 )
 
 // RunServer runs the app
@@ -39,6 +40,14 @@ func RunServer(configBackend string) error {
 	services.HealthService.RegisterRoutes(router, "/v1")
 	services.OauthService.RegisterRoutes(router, "/v1/oauth")
 	services.WebService.RegisterRoutes(router, "/web")
+
+	c := cors.New(cors.Options{
+		AllowedOrigins: []string{"*"},
+		AllowedMethods: []string{"PUT", "POST", "GET", "DELETE"},
+		Debug: true
+	})
+
+	app.use(c)
 
 	// Set the router
 	app.UseHandler(router)
